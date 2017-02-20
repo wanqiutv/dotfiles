@@ -187,16 +187,6 @@ function getcertnames() {
 	fi;
 }
 
-# `s` with no arguments opens the current directory in Sublime Text, otherwise
-# opens the given location
-function s() {
-	if [ $# -eq 0 ]; then
-		subl .;
-	else
-		subl "$@";
-	fi;
-}
-
 # `a` with no arguments opens the current directory in Atom Editor, otherwise
 # opens the given location
 function a() {
@@ -233,4 +223,12 @@ function o() {
 # small enough for one screen.
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
+}
+
+function clean_p4merge(){
+	find . -name \*_LOCAL_\* -type f -delete 
+	find . -name \*_BACKUP_\* -type f -delete 
+	find . -name \*_MERGED_\* -type f -delete 
+	find . -name \*_REMOTE_\* -type f -delete 
+	find . -name \*_BASE_\* -type f -delete 
 }
