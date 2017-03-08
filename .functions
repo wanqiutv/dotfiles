@@ -5,10 +5,6 @@ function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
 
-function killChrome() {
-	ps -ef | grep Chrome | grep -v grep | awk '{print $2}' | xargs sudo kill
-}
-
 # Change working directory to the top-most Finder window location
 function cdf() { # short for `cdfinder`
 	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
