@@ -28,6 +28,7 @@ brew install chromedriver
 brew cask install visual-studio-code
 brew cask install atom
 brew cask install google-chrome
+brew cask install google-drive
 brew cask install spectacle
 brew cask install vlc
 brew cask install iterm2
@@ -52,3 +53,4 @@ brew cleanup
 #install onenote
 #AppleId wanqiu.tv@gmail.com <Zhang1987
 #Fn key setting
+#install timeout
