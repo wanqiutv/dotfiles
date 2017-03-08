@@ -38,6 +38,9 @@ brew cask install pycharm
 brew cask install sourcetree
 brew cask install webstorm
 brew cask install intellij-idea
+brew cask install skech
+brew install bash-completion
+
 
 
 
