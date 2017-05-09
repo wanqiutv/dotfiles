@@ -26,3 +26,6 @@ else
 	fi;
 fi;
 unset doIt;
+
+#set default configuration for macos
+osascript ./osx/capslock-to-control.scpt

@@ -1,6 +1,7 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
-export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME=$(/usr/libexec/java_home);
+export PATH="$JAVA_HOME:$PATH";
 
 # Load the shell dotfiles, and then some:
 # * ~/.extra can be used for other settings you don’t want to commit.
@@ -29,3 +30,4 @@ fi;
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+

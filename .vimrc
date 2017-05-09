@@ -1,0 +1,1 @@
+vnoremap <D-c> "*y
