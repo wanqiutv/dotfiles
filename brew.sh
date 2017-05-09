@@ -16,12 +16,15 @@ brew link autojump
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
+
+#Install Java
+brew cask install java
+
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 
 brew install maven
 brew install node
-brew install java
 brew install chromedriver
 
 # Install Useful Applications
@@ -39,7 +42,7 @@ brew cask install pycharm
 brew cask install sourcetree
 brew cask install webstorm
 brew cask install intellij-idea
-brew cask install skech
+brew cask install sketch
 brew install bash-completion
 
 
