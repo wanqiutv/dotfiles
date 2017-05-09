@@ -57,3 +57,6 @@ brew cleanup
 #AppleId wanqiu.tv@gmail.com <Zhang1987
 #Fn key setting
 #install timeout
+#enable fn
+#install mouse catch
+#install toggle
