@@ -44,6 +44,7 @@ brew cask install webstorm
 brew cask install intellij-idea
 brew cask install sketch
 brew install bash-completion
+brew cask install docker
 
 
 
@@ -54,9 +55,6 @@ brew cleanup
 
 # @todo
 #install onenote
-#AppleId wanqiu.tv@gmail.com <Zhang1987
-#Fn key setting
 #install timeout
-#enable fn
 #install mouse catch
 #install toggle
