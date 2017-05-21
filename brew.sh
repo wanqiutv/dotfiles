@@ -26,6 +26,7 @@ brew install vim --with-override-system-vi
 brew install maven
 brew install node
 brew install chromedriver
+brew install mysql
 
 # Install Useful Applications
 brew cask install visual-studio-code
@@ -45,6 +46,7 @@ brew cask install intellij-idea
 brew cask install sketch
 brew install bash-completion
 brew cask install docker
+brew cask install datagrip
 
 
 
@@ -55,6 +57,9 @@ brew cleanup
 
 # @todo
 #install onenote
+#AppleId wanqiu.tv@gmail.com <Zhang1987
+#Fn key setting
 #install timeout
-#install mouse catch
 #install toggle
+#install mouse catch
+git clone https://github.com/ROUND/CatchMouse.git
