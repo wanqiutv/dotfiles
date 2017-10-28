@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 export JAVA_HOME=$(/usr/libexec/java_home);

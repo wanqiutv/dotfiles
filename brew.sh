@@ -12,6 +12,7 @@ brew install vim --with-override-system-vi
 brew install bash-completion
 brew install autojump
 brew link autojump
+brew install tree
 brew install wget --with-iri
 
 

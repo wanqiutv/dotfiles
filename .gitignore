@@ -12,10 +12,3 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
-
-*_BASE_*
-*_LOCAL_*
-*_REMOTE_*
-*_MERGED_*
-*_BACKUP_*
-*.orig
