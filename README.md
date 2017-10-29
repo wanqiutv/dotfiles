@@ -1,15 +1,9 @@
-### Using Git and the bootstrap script
-```bash
-git clone https://github.com/wanqiutv/dotfiles.git && cd dotfiles && source bootstrap.sh
-```
-
 ```bash
 #http://askubuntu.com/questions/25488/what-is-the-difference-between-source-and-in-bash
 source bootstrap.sh
 ```
 
 ### Sensible macOS defaults
-
 When setting up a new Mac, you may want to set some sensible macOS defaults:
 
 ```bash
@@ -23,3 +17,5 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ```bash
 ./brew.sh
 ```
+
+Sync up the vscode configuration with setting-sync plugin

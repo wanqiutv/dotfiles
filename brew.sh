@@ -11,7 +11,6 @@ brew upgrade
 brew install vim --with-override-system-vi
 brew install bash-completion
 brew install autojump
-brew link autojump
 brew install tree
 brew install wget --with-iri
 
@@ -40,21 +39,22 @@ brew cask install intellij-idea
 brew cask install datagrip
 
 # Install Useful Applications
-brew cask install google-drive
-brew cask install spectacle
-brew cask install vlc
-brew cask install iterm2
-brew cask install appcleaner
-brew cask install cheatsheet
-brew cask install sketch
+# brew cask install google-drive
+# brew cask install spectacle
+# brew cask install vlc
+# brew cask install iterm2
+# brew cask install appcleaner
+# brew cask install cheatsheet
+# brew cask install sketch
 #install toggle
 #CatchMouse
-git clone https://github.com/ROUND/CatchMouse.git
+# git clone https://github.com/ROUND/CatchMouse.git
 
 brew cleanup
 
 
-
+#todo
+#lantern vpn
 
 
 
