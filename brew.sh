@@ -17,7 +17,6 @@ brew install wget --with-iri
 
 brew cask install java
 brew install maven
-brew install chromedriver
 brew install node
 brew install mysql
 
@@ -29,7 +28,6 @@ brew cask install google-chrome
 brew cask install p4merge
 brew cask install sourcetree
 brew cask install docker
-#install onenote
 
 
 #IDE
@@ -39,23 +37,24 @@ brew cask install intellij-idea
 brew cask install datagrip
 
 # Install Useful Applications
-# brew cask install google-drive
-# brew cask install spectacle
-# brew cask install vlc
-# brew cask install iterm2
-# brew cask install appcleaner
-# brew cask install cheatsheet
-# brew cask install sketch
-#install toggle
-#CatchMouse
-# git clone https://github.com/ROUND/CatchMouse.git
+brew cask install spectacle
+brew cask install vlc
+brew cask install iterm2
+brew cask install appcleaner
+brew cask install cheatsheet
+
 
 brew cleanup
 
 
 #todo
 #lantern vpn
-
+# brew cask install google-drive
+# brew cask install sketch
+#install toggle
+#CatchMouse
+#git clone https://github.com/ROUND/CatchMouse.git
+#install onenote
 
 
 
