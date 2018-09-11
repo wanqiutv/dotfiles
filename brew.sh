@@ -1,66 +1,62 @@
 #!/usr/bin/env bash
 
-# Install command-line tools using Homebrew.
-
-#------------brew------------
-# Make sure we’re using the latest Homebrew.
+#brew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sudo chgrp -R admin /usr/local
+sudo chmod -R g+w /usr/local
 brew update
-
-# Upgrade any already-installed formulae.
 brew upgrade
 
-
+#commandline
+brew install vim --with-override-system-vi
+brew install bash-completion
 brew install autojump
-brew link autojump
-
-# Install `wget` with IRI support.
+brew install tree
 brew install wget --with-iri
 
 
-#Install Java
 brew cask install java
-
-# Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
-
 brew install maven
 brew install node
-brew install chromedriver
 brew install mysql
 
-# Install Useful Applications
+
+
+#APP
 brew cask install visual-studio-code
-brew cask install atom
 brew cask install google-chrome
-brew cask install google-drive
-brew cask install spectacle
-brew cask install vlc
-brew cask install iterm2
 brew cask install p4merge
-brew cask install appcleaner
-brew cask install cheatsheet
-brew cask install pycharm
 brew cask install sourcetree
+brew cask install docker
+
+
+#IDE
+brew cask install pycharm
 brew cask install webstorm
 brew cask install intellij-idea
-brew cask install sketch
-brew install bash-completion
-brew cask install docker
 brew cask install datagrip
 brew install TomAnthony/brews/itermocil
 
+# Install Useful Applications
+brew cask install spectacle
+brew cask install vlc
+brew cask install iterm2
+brew cask install appcleaner
+brew cask install cheatsheet
 
 
-
-# Remove outdated versions from the cellar.
 brew cleanup
 
 
-# @todo
-#install onenote
-#AppleId wanqiu.tv@gmail.com <Zhang1987
-#Fn key setting
-#install timeout
+#todo
+#lantern vpn
+# brew cask install google-drive
+# brew cask install sketch
 #install toggle
-#install mouse catch
-git clone https://github.com/ROUND/CatchMouse.git
+#CatchMouse
+#git clone https://github.com/ROUND/CatchMouse.git
+#install onenote
+
+
+
+

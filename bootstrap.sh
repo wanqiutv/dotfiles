@@ -9,9 +9,7 @@ function doIt() {
 		--exclude ".DS_Store" \
 		--exclude "bootstrap.sh" \
 		--exclude "brew.sh" \
-		--exclude "pre_brew.sh" \
 		--exclude "README.md" \
-		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
@@ -26,6 +24,3 @@ else
 	fi;
 fi;
 unset doIt;
-
-#set default configuration for macos
-osascript ./osx/capslock-to-control.scpt
