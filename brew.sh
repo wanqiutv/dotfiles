@@ -47,6 +47,7 @@ brew cask install sketch
 brew install bash-completion
 brew cask install docker
 brew cask install datagrip
+brew install TomAnthony/brews/itermocil
 
 
 
