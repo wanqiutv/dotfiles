@@ -14,6 +14,7 @@ brew install autojump
 brew link autojump
 brew install tree
 brew install wget --with-iri
+brew install cmake
 
 
 brew cask install java
@@ -21,6 +22,7 @@ brew install maven
 brew install chromedriver
 brew install node
 brew install mysql
+brew install tmux
 
 
 
