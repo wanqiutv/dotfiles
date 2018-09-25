@@ -11,7 +11,6 @@ brew upgrade
 brew install vim --with-override-system-vi
 brew install bash-completion
 brew install autojump
-brew link autojump
 brew install tree
 brew install wget --with-iri
 brew install cmake
@@ -19,7 +18,6 @@ brew install cmake
 
 brew cask install java
 brew install maven
-brew install chromedriver
 brew install node
 brew install mysql
 brew install tmux
@@ -32,7 +30,6 @@ brew cask install google-chrome
 brew cask install p4merge
 brew cask install sourcetree
 brew cask install docker
-#install onenote
 
 
 #IDE
@@ -40,24 +37,27 @@ brew cask install pycharm
 brew cask install webstorm
 brew cask install intellij-idea
 brew cask install datagrip
+brew install TomAnthony/brews/itermocil
 
 # Install Useful Applications
-brew cask install google-drive
 brew cask install spectacle
 brew cask install vlc
 brew cask install iterm2
 brew cask install appcleaner
 brew cask install cheatsheet
-brew cask install sketch
-#install toggle
-#CatchMouse
-git clone https://github.com/ROUND/CatchMouse.git
+
 
 brew cleanup
 
 
-
-
+#todo
+#lantern vpn
+# brew cask install google-drive
+# brew cask install sketch
+#install toggle
+#CatchMouse
+#git clone https://github.com/ROUND/CatchMouse.git
+#install onenote
 
 
 
