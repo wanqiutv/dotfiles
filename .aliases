@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 
-colorflag="-G"
-export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+# http://unix.stackexchange.com/questions/11376/what-does-double-dash-mean-also-known-as-bare-double-dash
+alias -- -="cd -"
 
+colorflag="-G"
 
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
@@ -39,9 +43,6 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 # en1 wire ethernet
 # lo0 loopback
 alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
-
-# Trim new lines and copy to clipboard
-alias copy="tr -d '\n' | pbcopy"
 
 # Recursively delete `.DS_Store` files
 alias cleands="find . -type f -name '*.DS_Store' -ls -delete"
