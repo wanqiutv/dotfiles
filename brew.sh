@@ -11,13 +11,26 @@ brew upgrade
 brew install vim --with-override-system-vi
 brew install bash-completion
 brew install autojump
+# Save Homebrew’s installed location.
+BREW_PREFIX=$(brew --prefix)
+
 brew install wget --with-iri
 #brew install cmake
+ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 #brew cask install java
 #brew install maven
 #brew install node
 #brew install mysql
+# Install some other useful utilities like `sponge`.
+brew install moreutils
+# Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
+brew install findutils
+# Install GNU `sed`, overwriting the built-in `sed`.
+brew install gnu-sed --with-default-names
+# Install Bash 4.
+brew install bash
+brew install bash-completion2
 
 
 
@@ -40,6 +53,11 @@ brew install tmux
 
 brew cleanup
 
+brew install rhino
+brew install speedtest_cli
+brew install ssh-copy-id
+brew install rlwrap
+brew install ssh-copy-id
 
 #todo
 # brew cask install google-drive
