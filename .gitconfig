@@ -117,11 +117,6 @@
 	# https://help.github.com/articles/signing-commits-using-gpg/
 	gpgsign = false
 
-[diff]
-
-	# Detect copies as well as renames
-	renames = copies
-
 [diff "bin"]
 
 	# Use `hexdump` to diff binary files
@@ -132,10 +127,6 @@
 	# Automatically correct and execute mistyped commands
 	autocorrect = 1
 
-[merge]
-
-	# Include summaries of merged commits in newly created merge commit messages
-	log = true
 
 [push]
 
@@ -144,12 +135,18 @@
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
 
-[mergetool]
-        keepBackup = false
-		
 [difftool "sourcetree"]
 	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 	trustExitCode = true
+[merge]
+    keepBackup = false
+	tool = sourcetree
+	# Include summaries of merged commits in newly created merge commit messages
+	log = true
+[diff]
+	tool = sourcetree
+	# Detect copies as well as renames
+	renames = copies
