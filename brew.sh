@@ -3,7 +3,6 @@ export ALL_PROXY=socks5://127.0.0.1:1086
 
 #brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-sudo chmod -R g+w /usr/local
 brew update
 brew upgrade
 
