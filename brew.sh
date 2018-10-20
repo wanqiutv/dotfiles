@@ -1,15 +1,14 @@
 #!/usr/bin/env bash
+export ALL_PROXY=socks5://127.0.0.1:1086
 
 #brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-sudo chgrp -R admin /usr/local
 sudo chmod -R g+w /usr/local
 brew update
 brew upgrade
 
 #commandline
 brew install vim --with-override-system-vi
-brew install bash-completion
 brew install autojump
 # Save Homebrew’s installed location.
 BREW_PREFIX=$(brew --prefix)
@@ -18,10 +17,6 @@ brew install wget --with-iri
 #brew install cmake
 ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
-#brew cask install java
-#brew install maven
-#brew install node
-#brew install mysql
 brew install coreutils
 # Install some other useful utilities like `sponge`.
 brew install moreutils
@@ -38,9 +33,7 @@ brew install bash-completion2
 #tools
 brew cask install visual-studio-code
 brew cask install google-chrome
-brew cask install p4merge
 brew cask install sourcetree
-brew cask install docker
 brew cask install karabiner
 brew cask install pycharm
 brew cask install webstorm
@@ -62,3 +55,11 @@ brew cleanup
 #CatchMouse
 #git clone https://github.com/ROUND/CatchMouse.git
 #install onenote
+#doesn't work anymore
+#brew cask install p4merge
+#unstable
+#brew cask install docker
+#brew cask install java
+#brew install maven
+#brew install node
+#brew install mysql
