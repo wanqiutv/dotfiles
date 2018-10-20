@@ -1,13 +1,19 @@
 #!/usr/bin/env bash
 
+# Easier navigation
+# cd to go home directory
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 # http://unix.stackexchange.com/questions/11376/what-does-double-dash-mean-also-known-as-bare-double-dash
+# go back to previous directory
 alias -- -="cd -"
 
 # Shortcuts
 alias g="git"
+
+# Get macOS Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g;'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
