@@ -22,6 +22,7 @@ ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 #brew install maven
 #brew install node
 #brew install mysql
+brew install coreutils
 # Install some other useful utilities like `sponge`.
 brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
@@ -49,15 +50,11 @@ brew cask install spectacle
 brew cask install iterm2
 brew cask install appcleaner
 brew install tmux
+brew install ssh-copy-id
 
 
 brew cleanup
 
-brew install rhino
-brew install speedtest_cli
-brew install ssh-copy-id
-brew install rlwrap
-brew install ssh-copy-id
 
 #todo
 # brew cask install google-drive
