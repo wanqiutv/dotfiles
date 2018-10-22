@@ -34,7 +34,7 @@ brew install bash-completion2
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install sourcetree
-brew cask install karabiner
+brew cask install karabiner-elements
 brew cask install pycharm
 brew cask install webstorm
 brew cask install intellij-idea
