@@ -121,6 +121,7 @@
 
 	# Detect copies as well as renames
 	renames = copies
+	tool = sourcetree
 
 [diff "bin"]
 
@@ -133,9 +134,10 @@
 	autocorrect = 1
 
 [merge]
-
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	keepBackup = false
+	tool=sourcetree
 
 [push]
 
