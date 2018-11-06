@@ -22,4 +22,6 @@ unset file;
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
 export ALL_PROXY=socks5://127.0.0.1:1086

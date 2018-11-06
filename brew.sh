@@ -26,7 +26,7 @@ brew install findutils
 brew install gnu-sed --with-default-names
 # Install Bash 4.
 brew install bash
-brew install bash-completion2
+brew install bash-completion
 
 
 

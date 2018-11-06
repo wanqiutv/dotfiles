@@ -79,7 +79,12 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
+# sleep now
+alias sln="pmset sleepnow"
+
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+
 
