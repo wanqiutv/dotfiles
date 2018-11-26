@@ -24,8 +24,9 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
+# throw error when use kubctl completion
 # Install Bash 4.
-brew install bash
+# brew install bash
 brew install bash-completion
 
 
@@ -44,6 +45,7 @@ brew cask install iterm2
 brew cask install appcleaner
 brew install tmux
 brew install ssh-copy-id
+brew install kubectl
 
 
 brew cleanup
@@ -63,3 +65,4 @@ brew cleanup
 #brew install maven
 #brew install node
 #brew install mysql
+

@@ -4,6 +4,16 @@ export PATH="$HOME/bin:$PATH";
 export JAVA_HOME=$(/usr/libexec/java_home);
 export PATH="$JAVA_HOME:$PATH";
 
+# Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
+[ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;
+
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+#export ALL_PROXY=socks5://127.0.0.1:1086
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
+
 # Load the shell dotfiles, and then some:
 # * ~/.extra can be used for other settings you don’t want to commit.
 # [ -r "$file" ] whether it is readable
@@ -17,11 +27,6 @@ for file in ~/.{bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
-# Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
-[ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;
 
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
-export ALL_PROXY=socks5://127.0.0.1:1086
