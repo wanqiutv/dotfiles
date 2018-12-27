@@ -22,7 +22,7 @@ export PATH="/usr/local/opt/sqlite/bin:$PATH"
 # When a script is run using source it runs within the existing shell, any variables created or modified by the script will remain available after the script completes.
 # In contrast if the script is run just as filename, then a separate subshell (with a completely separate set of variables) would be spawned to run the script.
 # http://ss64.com/bash/source.html
-for file in ~/.{bash_prompt,exports,aliases,functions,extra}; do
+for file in ~/.{bash_prompt,exports,aliases,functions,extra,extra_fun}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;

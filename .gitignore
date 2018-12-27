@@ -1,3 +1,4 @@
+.extra_fun
 .extra
 # Compiled Python files
 *.pyc
@@ -5,6 +6,9 @@
 # Folder view configuration files
 .DS_Store
 Desktop.ini
+
+.extra
+.extra_fun
 
 # Thumbnail cache files
 ._*
