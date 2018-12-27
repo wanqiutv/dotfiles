@@ -25,7 +25,11 @@ brew install findutils
 brew install gnu-sed --with-default-names
 # throw error when use kubctl completion
 # Install Bash 4.
+<<<<<<< Updated upstream
+# brew install bash
+=======
 brew install bash
+>>>>>>> Stashed changes
 brew install bash-completion
 
 

@@ -117,12 +117,15 @@
 	# https://help.github.com/articles/signing-commits-using-gpg/
 	gpgsign = false
 
+<<<<<<< HEAD
+=======
 [diff]
 
 	# Detect copies as well as renames
 	renames = copies
 	tool = sourcetree
 
+>>>>>>> 8a7cbc2fc7bad1e3e60de4c37cf98604abfece7e
 [diff "bin"]
 
 	# Use `hexdump` to diff binary files
@@ -133,11 +136,14 @@
 	# Automatically correct and execute mistyped commands
 	autocorrect = 1
 
+<<<<<<< HEAD
+=======
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 	keepBackup = false
 	tool=sourcetree
+>>>>>>> 8a7cbc2fc7bad1e3e60de4c37cf98604abfece7e
 
 [push]
 
