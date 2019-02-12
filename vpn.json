@@ -1,0 +1,125 @@
+{
+  "random" : false,
+  "authPass" : null,
+  "useOnlinePac" : false,
+  "TTL" : 0,
+  "global" : false,
+  "reconnectTimes" : 3,
+  "index" : 0,
+  "proxyType" : 0,
+  "proxyHost" : null,
+  "authUser" : null,
+  "proxyAuthPass" : null,
+  "isDefault" : false,
+  "pacUrl" : null,
+  "configs" : [
+    {
+      "enable" : true,
+      "password" : "H94RFeVRDu4R",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "",
+      "server" : "us2-sta40.es3bo.pw",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 49156,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "H94RFeVRDu4R",
+      "method" : "aes-256-cfb",
+      "remarks" : "",
+      "server" : "sg05-40.ssv7.net",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 49156,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "H94RFeVRDu4R",
+      "method" : "chacha20-ietf-poly1305",
+      "remarks" : "",
+      "server" : "us1-sta40.es3bo.pw",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 49156,
+      "remarks_base64" : ""
+    },
+    {
+      "enable" : true,
+      "password" : "ssy46tSR",
+      "method" : "aes-256-cfb",
+      "remarks" : "Shadowsocks",
+      "server" : "106.75.30.32",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 9016,
+      "remarks_base64" : "U2hhZG93c29ja3M="
+    },
+    {
+      "enable" : true,
+      "password" : "#EDC4rfv",
+      "method" : "aes-256-cfb",
+      "remarks" : "NewShadowsocks",
+      "server" : "106.75.241.189",
+      "kcptun" : {
+        "nocomp" : false,
+        "key" : "it's a secrect",
+        "crypt" : "aes",
+        "datashard" : 10,
+        "mtu" : 1350,
+        "mode" : "fast",
+        "parityshard" : 3,
+        "arguments" : ""
+      },
+      "enabled_kcptun" : false,
+      "server_port" : 37201,
+      "remarks_base64" : "TmV3U2hhZG93c29ja3M="
+    }
+  ],
+  "proxyPort" : 0,
+  "randomAlgorithm" : 0,
+  "proxyEnable" : false,
+  "enabled" : true,
+  "autoban" : false,
+  "proxyAuthUser" : null,
+  "shareOverLan" : false,
+  "localPort" : 1080
+}
