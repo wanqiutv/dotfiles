@@ -6,15 +6,12 @@ export ALL_PROXY=socks5://127.0.0.1:1086
 brew update
 brew upgrade
 
-#commandline
-brew install vim --with-override-system-vi
 brew install autojump
 # Save Homebrew’s installed location.
 BREW_PREFIX=$(brew --prefix)
 
-brew install wget --with-iri
+brew install wget 
 #brew install cmake
-ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 brew install coreutils
 # Install some other useful utilities like `sponge`.
@@ -22,10 +19,8 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+brew install gnu-sed 
 # throw error when use kubctl completion
-# Install Bash 4.
-brew install bash
 brew install bash-completion
 
 
