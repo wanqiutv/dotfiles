@@ -18,9 +18,6 @@ brew install coreutils
 brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
-# Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed 
-# throw error when use kubctl completion
 brew install bash-completion
 
 
@@ -45,18 +42,9 @@ brew install kubectl
 brew cleanup
 
 
-#todo
-# brew cask install google-drive
-# brew cask install sketch
-#CatchMouse
-#git clone https://github.com/ROUND/CatchMouse.git
-#install onenote
-#doesn't work anymore
-#brew cask install p4merge
-#unstable
-#brew cask install docker
-#brew cask install java
-#brew install maven
-#brew install node
-#brew install mysql
+
+brew cask install docker
+brew cask install java
+brew install maven
+brew install node
 

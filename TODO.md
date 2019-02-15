@@ -9,3 +9,22 @@ git clone https://github.com/ROUND/CatchMouse.git
 onenote
 p4merge
 ---------------
+
+reimburse the mobile phone fee in Jan
+reimburse the new laptop and airpod
+apply for insurance compensation
+apply for reissue identification
+get back mobile phone numbers
+get back credit card
+get back debit card
+
+----------------------
+
+do the fucking exercise moring and night
+get shower and brush morning and night
+eat the fucking vegetables morning and night
+finacial report analysis 
+algorithm
+
+
+
