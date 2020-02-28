@@ -9,11 +9,7 @@ function doIt() {
 		--exclude ".DS_Store" \
 		--exclude "bootstrap.sh" \
 		--exclude "brew.sh" \
-		--exclude "vpn.json" \
-		--exclude "googlechrome.dmg" \
 		--exclude "*.md"  \
-		--exclude "*.zip"  \
-		--exclude "*.gz"  \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
